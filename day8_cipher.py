@@ -1,8 +1,8 @@
-import art
+import day8_art
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-print(art.logo)
+print(day8_art.logo)
 
 def caeser(original_text, shift_amount, encodeOrDecode):
     output = ""
